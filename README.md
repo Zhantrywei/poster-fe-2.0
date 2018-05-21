@@ -73,10 +73,16 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
             "isBorder": true,
             "isItalic": true,
             "isUnderLine": true,
+            "lineHight": 0.1,
+            "letterSpacing": 20,
             //不用宽高,由内容填充,可旋转移动,不可伸缩
+            "width": 100,
             "x": 60,
             "y": 50,
-          }
+            "angle": 30
+          },
+          //图片组件
+          
         ]
       }
     ```
