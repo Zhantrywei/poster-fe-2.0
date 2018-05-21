@@ -139,10 +139,10 @@ export default {
       }
     },
     previewPoster(row) {
-      if (row.FposterBgUrl && FposterQrcode && FposterTipsTxt && FposterUrl) {
-      } else {
+      // if (row.FposterBgUrl && row.FposterQrcode && row.FposterTipsTxt && row.FposterUrl) {
+      // } else {
         this.$router.push({ name: "poster" });
-      }
+      // }
     },
     //删除活动
     deleteActivity(id) {
