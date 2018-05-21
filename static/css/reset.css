@@ -1,0 +1,41 @@
+[v-cloak] {
+  display: none;
+}
+
+html,
+body,
+header,
+main,
+div,
+h1,
+h2,
+ul,
+li,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both
+}
+
+.clearfix {
+  zoom: 1
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
